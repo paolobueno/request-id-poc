@@ -4,11 +4,16 @@ Small `express` proof of concept for creating a bunyan-based logger module that 
 
 
 # Running
+Start the server with:
 
 ```
 npm install
 npm start
+```
 
+Now on another shell, access the endpoints and observe the logging
+
+```
 curl http://localhost:3000/
 curl http://localhost:3000/users
 ```
